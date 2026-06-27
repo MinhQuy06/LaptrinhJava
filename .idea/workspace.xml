@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dae651f-82d4-432d-9348-187da3d9a439" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/managed/ManagedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/prototype/RequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/singleton/ServiceA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/singleton/ServiceB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/proxies/CommentNotificationProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/proxies/EmailNotificationProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/repositories/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/repositories/DBCommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/services/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="51" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Chuong2/Lab2" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="4.202535568714408E-142" />
+      <entry key="S10" value="2.8989639279539103E-71" />
+      <entry key="S30" value="4.8763485091922736E-24" />
+      <entry key="S60" value="3.1229252671567797E-12" />
+      <entry key="M2" value="2.4991688545490387E-6" />
+      <entry key="M5" value="0.008704346899225853" />
+      <entry key="M10" value="0.13194200687183769" />
+      <entry key="M15" value="0.32653674091747154" />
+      <entry key="M30" value="0.8081296178498306" />
+      <entry key="H1" value="1.2713218452059727" />
+      <entry key="H2" value="1.5945669285991086" />
+      <entry key="H4" value="1.7858146199985838" />
+      <entry key="D1" value="1.9625966750005988" />
+      <entry key="W1" value="1.9946133385239069" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0" />
+      <entry key="M15" value="1.0" />
+      <entry key="M30" value="1.0" />
+      <entry key="H1" value="1.0" />
+      <entry key="H2" value="1.0" />
+      <entry key="H4" value="1.0" />
+      <entry key="D1" value="1.0" />
+      <entry key="W1" value="1.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.264876881414169E-14" />
+      <entry key="MS500" value="0.0024179497867918855" />
+      <entry key="S2" value="0.22174907628803747" />
+      <entry key="S5" value="0.5474503374044872" />
+      <entry key="S10" value="0.7398988697142923" />
+      <entry key="S30" value="0.9044629638256293" />
+      <entry key="S60" value="0.9510325776920334" />
+      <entry key="M2" value="0.9752114876866225" />
+      <entry key="M5" value="0.9987086265528448" />
+      <entry key="M10" value="1.1268992192111222" />
+      <entry key="M15" value="1.3231379951944442" />
+      <entry key="M30" value="1.8063866567792703" />
+      <entry key="H1" value="2.270429725441933" />
+      <entry key="H2" value="2.5941137015396705" />
+      <entry key="H4" value="2.785585890236591" />
+      <entry key="D1" value="2.962558227676836" />
+      <entry key="W1" value="2.9946078376266505" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FfDBClsfvLLbP26rQ7sWSrGT80" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.com.lab.Main.executor": "Run",
+    "Application.com.lab.lifecycle.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Laptrinhjava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.20154186",
+    "project.structure.side.proportion": "0.21141374",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Laptrinhjava\Chuong2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.lab.lifecycle.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Java-lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.lifecycle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.lab.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab.Main" />
+      <module name="lab1-spring-di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.lab.lifecycle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lab.lifecycle.Main" />
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lab.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.lab.lifecycle.Main" />
+        <item itemvalue="Application.com.lab.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dae651f-82d4-432d-9348-187da3d9a439" name="Changes" comment="" />
+      <created>1782457091606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782457091606</updated>
+      <workItem from="1782457092697" duration="27000" />
+      <workItem from="1782483564735" duration="688000" />
+      <workItem from="1782484264321" duration="2117000" />
+      <workItem from="1782486420096" duration="1704000" />
+      <workItem from="1782530835478" duration="4167000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
