@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Chi tiết sản phẩm</title>
+</head>
+<body>
+<h1>Chi tiết sản phẩm</h1>
+<div th:if="${product != null}">
+    <p>ID: <span th:text="${product.id}"></span></p>
+    <p>Tên: <span th:text="${product.name}"></span></p>
+    <p>Giá: <span th:text="${product.price}"></span></p>
+</div>
+<div th:if="${product == null}">
+    <p>Không tìm thấy sản phẩm.</p>
+</div>
+<a href="/products">Quay lại</a>
+</body>
+</html>
