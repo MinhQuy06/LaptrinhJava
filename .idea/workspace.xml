@@ -5,37 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dae651f-82d4-432d-9348-187da3d9a439" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/managed/ManagedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/prototype/RequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/singleton/ServiceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chuong2/Lab2/src/main/java/com/lab/lifecycle/singleton/ServiceB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/model/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/proxies/CommentNotificationProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/proxies/EmailNotificationProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/repositories/CommentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/repositories/DBCommentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/main/java/com/lab/services/CommentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Chuong2/Lab2" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -61,61 +31,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.202535568714408E-142" />
-      <entry key="S10" value="2.8989639279539103E-71" />
-      <entry key="S30" value="4.8763485091922736E-24" />
-      <entry key="S60" value="3.1229252671567797E-12" />
-      <entry key="M2" value="2.4991688545490387E-6" />
-      <entry key="M5" value="0.008704346899225853" />
-      <entry key="M10" value="0.13194200687183769" />
-      <entry key="M15" value="0.32653674091747154" />
-      <entry key="M30" value="0.8081296178498306" />
-      <entry key="H1" value="1.2713218452059727" />
-      <entry key="H2" value="1.5945669285991086" />
-      <entry key="H4" value="1.7858146199985838" />
-      <entry key="D1" value="1.9625966750005988" />
-      <entry key="W1" value="1.9946133385239069" />
+      <entry key="MS100" value="1.1465298799737536" />
+      <entry key="MS500" value="2.5739546916815788" />
+      <entry key="S2" value="4.0754290326532185" />
+      <entry key="S5" value="4.590691790112409" />
+      <entry key="S10" value="4.787991937883714" />
+      <entry key="S30" value="4.927616535433694" />
+      <entry key="S60" value="4.963588788026046" />
+      <entry key="M2" value="4.981741598499361" />
+      <entry key="M5" value="5.001351877047242" />
+      <entry key="M10" value="5.128016908813121" />
+      <entry key="M15" value="5.323659754912363" />
+      <entry key="M30" value="5.8063693372511125" />
+      <entry key="H1" value="6.270286979763871" />
+      <entry key="H2" value="6.593995506953927" />
+      <entry key="H4" value="6.785512937651978" />
+      <entry key="D1" value="6.9625439339965975" />
+      <entry key="W1" value="6.9946057404318065" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0" />
-      <entry key="H1" value="1.0" />
-      <entry key="H2" value="1.0" />
-      <entry key="H4" value="1.0" />
-      <entry key="D1" value="1.0" />
-      <entry key="W1" value="1.0" />
+      <entry key="MS100" value="6.02753686419202E-6" />
+      <entry key="MS500" value="0.09037076840910921" />
+      <entry key="S2" value="0.5482857942939469" />
+      <entry key="S5" value="0.7863262925553611" />
+      <entry key="S10" value="0.88675041164657" />
+      <entry key="S30" value="0.9607280399086392" />
+      <entry key="S60" value="0.9801673530110248" />
+      <entry key="M2" value="0.9900340160878439" />
+      <entry key="M5" value="0.996001624172451" />
+      <entry key="M10" value="0.9979988097049268" />
+      <entry key="M15" value="0.9986654277667659" />
+      <entry key="M30" value="0.9993324910993167" />
+      <entry key="H1" value="0.9996661898350451" />
+      <entry key="H2" value="0.999833080986544" />
+      <entry key="H4" value="0.9999165370102366" />
+      <entry key="D1" value="0.9999860890179263" />
+      <entry key="W1" value="0.9999980127049988" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.264876881414169E-14" />
-      <entry key="MS500" value="0.0024179497867918855" />
-      <entry key="S2" value="0.22174907628803747" />
-      <entry key="S5" value="0.5474503374044872" />
-      <entry key="S10" value="0.7398988697142923" />
-      <entry key="S30" value="0.9044629638256293" />
-      <entry key="S60" value="0.9510325776920334" />
-      <entry key="M2" value="0.9752114876866225" />
-      <entry key="M5" value="0.9987086265528448" />
-      <entry key="M10" value="1.1268992192111222" />
-      <entry key="M15" value="1.3231379951944442" />
-      <entry key="M30" value="1.8063866567792703" />
-      <entry key="H1" value="2.270429725441933" />
-      <entry key="H2" value="2.5941137015396705" />
-      <entry key="H4" value="2.785585890236591" />
-      <entry key="D1" value="2.962558227676836" />
-      <entry key="W1" value="2.9946078376266505" />
+      <entry key="MS100" value="1.073937964825653" />
+      <entry key="MS500" value="2.507301116716023" />
+      <entry key="S2" value="4.1418565788771255" />
+      <entry key="S5" value="4.991859917194995" />
+      <entry key="S10" value="5.42795006314531" />
+      <entry key="S30" value="5.790813435595429" />
+      <entry key="S60" value="5.892839311373446" />
+      <entry key="M2" value="5.945759339694429" />
+      <entry key="M5" value="5.986805902349037" />
+      <entry key="M10" value="6.120686612565356" />
+      <entry key="M15" value="6.318733257831022" />
+      <entry key="M30" value="6.803861118982123" />
+      <entry key="H1" value="7.269011878197111" />
+      <entry key="H2" value="7.593350698422637" />
+      <entry key="H4" value="7.785188394087189" />
+      <entry key="D1" value="7.9624895144572045" />
+      <entry key="W1" value="7.994597957709253" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -141,7 +111,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -234,7 +204,8 @@
       <workItem from="1782483564735" duration="688000" />
       <workItem from="1782484264321" duration="2117000" />
       <workItem from="1782486420096" duration="1704000" />
-      <workItem from="1782530835478" duration="4167000" />
+      <workItem from="1782530835478" duration="4318000" />
+      <workItem from="1783049413515" duration="374000" />
     </task>
     <servers />
   </component>
