@@ -1,25 +1,28 @@
 package com.example.productapp.controller;
+
 import com.example.productapp.model.Product;
 import jakarta.validation.Valid;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.ArrayList;
 import java.util.List;
-@Controller
-@RequestMapping("/products")
-public class ProductController {
+
+@RestController
+@RequestMapping("/api/v1/products")
+public class RestProductController {
+
     private final List<Product> products = new ArrayList<>();
-    public ProductController() {
+    public RestProductController() {
         products.add(new Product(1, "Laptop", 15000000));
         products.add(new Product(2, "Mouse", 250000));
         products.add(new Product(3, "Iphone", 23000000));
     }
     @GetMapping
-    public String listProducts(Model model) {
+    public List <Product> productList (Model model) {
         model.addAttribute("products", products);
-        return "products";
+        return products;
     }
     @GetMapping("/add")
     public String showAddForm(Model model) {
@@ -27,16 +30,16 @@ public class ProductController {
         return "add-product";
     }
     @PostMapping("/add")
-    public String addProduct(
+    public Product addProduct(
             @Valid @ModelAttribute Product product,
             BindingResult bindingResult
     ) {
-        if (bindingResult.hasErrors()) {
-            return "add-product";
-        }
+//        if (bindingResult.hasErrors()) {
+//            return "add-product";
+//        }
         product.setId(products.size() + 1);
         products.add(product);
-        return "redirect:/products";
+        return product;
     }
     @GetMapping("/{id}")
     public String productDetail(@PathVariable int id, Model model) {
