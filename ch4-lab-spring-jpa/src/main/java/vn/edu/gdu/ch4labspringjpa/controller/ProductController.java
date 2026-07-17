@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import vn.edu.gdu.ch4labspringjpa.entity.Product;
 import vn.edu.gdu.ch4labspringjpa.repository.ProductRepository;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
@@ -68,6 +69,67 @@ public class ProductController {
     @GetMapping("/count")
     public long countProducts() {
         return productRepository.count();
+    }
+
+    //- API tìm theo tên
+    @GetMapping("/search")
+    public List<Product> searchProducts(
+            @RequestParam String keyword) {
+
+        return productRepository
+                .findByNameContainingIgnoreCase(keyword);
+    }
+
+    //- API tìm theo khoảng giá
+    @GetMapping("/price-range")
+    public List<Product> getProductsByPriceRange(
+
+            @RequestParam BigDecimal min,
+
+            @RequestParam BigDecimal max) {
+
+        return productRepository
+                .findByPriceBetween(min, max);
+    }
+
+    // -API JPQL
+    @GetMapping("/expensive")
+    public List<Product> getExpensiveProducts(
+
+            @RequestParam BigDecimal minPrice) {
+
+        return productRepository
+                .findExpensiveProducts(minPrice);
+    }
+
+    //-API Native SQL
+    @GetMapping("/top3")
+    public List<Product> getTop3Expensive() {
+
+        return productRepository
+                .findTop3ExpensiveProducts();
+    }
+
+    // API Update
+    @PutMapping("/{id}/increase-price")
+    public ResponseEntity<String> increaseProductPrice(
+
+            @PathVariable Long id,
+
+            @RequestParam BigDecimal rate) {
+
+        int updatedRows =
+                productRepository.updateProductPrice(id, rate);
+
+        if (updatedRows > 0) {
+
+            return ResponseEntity.ok(
+                    "Cập nhật giá thành công cho sản phẩm ID: " + id);
+
+        }
+
+        return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                .body("Không tìm thấy sản phẩm ID: " + id);
     }
 
     // Thêm phương thức này vào class ProductController
