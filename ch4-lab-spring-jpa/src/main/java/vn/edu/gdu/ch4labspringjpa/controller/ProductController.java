@@ -1,5 +1,9 @@
 package vn.edu.gdu.ch4labspringjpa.controller;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -64,5 +68,23 @@ public class ProductController {
     @GetMapping("/count")
     public long countProducts() {
         return productRepository.count();
+    }
+
+    // Thêm phương thức này vào class ProductController
+// ── API Lấy sản phẩm có Phân trang và Sắp xếp (Chương 5) ──
+    @GetMapping("/page")
+    public ResponseEntity<Page<Product>> getProductsPageable(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "price") String sortBy,
+            @RequestParam(defaultValue = "asc") String sortDir
+    ) {
+        Sort sort = sortDir.equalsIgnoreCase("asc") ?
+                Sort.by(sortBy).ascending() :
+                Sort.by(sortBy).descending();
+
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        return ResponseEntity.ok(productRepository.findAll(pageable));
     }
 }
