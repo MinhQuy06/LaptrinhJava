@@ -3,7 +3,9 @@ package vn.edu.gdu.ch4labspringjpa.controller;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import vn.edu.gdu.ch4labspringjpa.entity.Course;
 import vn.edu.gdu.ch4labspringjpa.entity.Student;
+import vn.edu.gdu.ch4labspringjpa.repository.CourseRepository;
 import vn.edu.gdu.ch4labspringjpa.repository.StudentRepository;
 
 import java.util.List;
@@ -14,12 +16,14 @@ import java.util.Optional;
 public class StudentController {
 
     private final StudentRepository studentRepository;
+    private final CourseRepository courseRepository;
 
     // Constructor Injection kết nối tự động [cite: 347]
-    public StudentController(StudentRepository studentRepository) {
+    public StudentController(StudentRepository studentRepository,
+                             CourseRepository courseRepository) {
         this.studentRepository = studentRepository;
+        this.courseRepository = courseRepository;
     }
-
     // 1. API Lấy danh sách toàn bộ sinh viên (GET)
     @GetMapping
     public List<Student> getAllStudents() {
@@ -67,5 +71,34 @@ public class StudentController {
             return ResponseEntity.noContent().build(); // Trả về 204 No Content [cite: 354]
         }
         return ResponseEntity.notFound().build();
+    }
+
+    // Đăng ký môn học
+    @PostMapping("/{studentId}/enroll/{courseId}")
+    public ResponseEntity<String> enrollStudent(
+            @PathVariable Long studentId,
+            @PathVariable Long courseId) {
+
+        Optional<Student> studentOpt = studentRepository.findById(studentId);
+        Optional<Course> courseOpt = courseRepository.findById(courseId);
+
+        if (studentOpt.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body("Không tìm thấy sinh viên");
+        }
+
+        if (courseOpt.isEmpty()) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND)
+                    .body("Không tìm thấy khóa học");
+        }
+
+        Student student = studentOpt.get();
+        Course course = courseOpt.get();
+
+        student.enrollInCourse(course);
+
+        studentRepository.save(student);
+
+        return ResponseEntity.ok("Đăng ký môn học thành công");
     }
 }
